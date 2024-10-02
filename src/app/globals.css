@@ -2,26 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer components{
+    .btn{
+        @apply px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight
+    }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+    .btn-primary{
+        @apply bg-black text-white
+    }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+    .btn-text{
+        @apply text-black bg-transparent
+    }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+    .card{
+        @apply p-10 border border-solid border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full
+    }
+
+    .gradient{
+        @apply bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_66%)]
+    }
+
+    .header{
+        @apply max-w-[540px] mx-auto
+    }
+
+    .logo-ticker{
+        @apply h-8 w-auto
+    }
+
+    .logo-image{
+        @apply [mask-image:linear-gradient(to_right,transparent,black,transparent)]
+    }
+
+    .paragraph{
+        @apply text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E]
+    }
+
+    .product{
+        @apply bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF]
+    }
+
+    .span{
+        @apply bg-[linear-gradient(to_right,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF)]
+    }
+
+    .tag{
+        @apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight
+    }
+
+    .title{
+        @apply bg-gradient-to-b from-black to-[#001E80] text-center text-3xl font-bold tracking-tighter text-transparent bg-clip-text md:text-[54px] md:leading-[68px]
+    }
 }
