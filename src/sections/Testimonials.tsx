@@ -11,7 +11,6 @@ import avatar8 from "@/assets/avatar-8.png";
 import avatar9 from "@/assets/avatar-9.png";
 import Image from "next/image";
 import React from 'react'
-import { twMerge } from "tailwind-merge";
 import {motion} from 'framer-motion'
 
 const testimonials = [

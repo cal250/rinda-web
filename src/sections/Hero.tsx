@@ -3,10 +3,9 @@
 import React, { useRef } from 'react'
 import ArrowIcon from '@/assets/arrow-right.svg'
 import cog from '@/assets/cog.png'
-import Image from 'next/image';
 import cylinder from '@/assets/cylinder.png'
 import noodle from '@/assets/noodle.png'
-import {motion, useScroll, useTransform, useMotionValueEvent} from 'framer-motion'
+import {motion, useScroll, useTransform,} from 'framer-motion'
 
 const Hero = () => {
 

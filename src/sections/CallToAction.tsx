@@ -4,7 +4,6 @@ import React, { useRef } from 'react'
 import Arrow from '@/assets/arrow-right.svg'
 import star from '@/assets/star.png'
 import spring from '@/assets/spring.png'
-import Image from 'next/image'
 import {motion, useScroll, useTransform} from 'framer-motion'
 
 const CallToAction = () => {
