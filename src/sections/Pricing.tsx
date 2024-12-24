@@ -8,49 +8,47 @@ const pricingTiers = [
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "2GB storage",
-      "Integrations",
-      "Basic support",
+      "Register up to 3 devices",
+      "Encrypted storage for device details",
+      "Basic theft prevention tools",
+      "Access to community resources",
+      "Limited security tips",
     ],
   },
   {
     title: "Pro",
-    monthlyPrice: 9,
+    monthlyPrice: 10,
     buttonText: "Sign up now",
     popular: true,
     inverse: true,
     features: [
-      "Up to 50 project members",
-      "Unlimited tasks and projects",
-      "50GB storage",
-      "Integrations",
-      "Priority support",
-      "Advanced support",
-      "Export support",
+      "Register up to 10 devices",
+      "Enhanced encrypted storage",
+      "Real-time GPS tracking",
+      "Remote lock and wipe functionality",
+      "Priority customer support",
+      "Secure data backup (up to 50GB)",
     ],
   },
   {
     title: "Business",
-    monthlyPrice: 19,
+    monthlyPrice: 20,
     buttonText: "Sign up now",
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "200GB storage",
-      "Integrations",
+      "Unlimited device registration",
+      "Comprehensive encrypted storage",
+      "Advanced theft prevention measures",
       "Dedicated account manager",
-      "Custom fields",
-      "Advanced analytics",
-      "Export capabilities",
-      "API access",
-      "Advanced security features",
+      "Secure data backup (up to 200GB)",
+      "Custom analytics for device insights",
+      "API access for integration",
+      "24/7 advanced support",
     ],
   },
 ];
+
 
 import Check from "@/assets/check.svg";
 import React from 'react'
@@ -74,7 +72,7 @@ const Pricing = () => {
               key={menu.title}
               className={twMerge(
                 "card",
-                menu.inverse === true && "border-black bg-black text-white"
+                menu.inverse === true && " bg-blue-600 text-white"
               )}
             >
               <div className="flex justify-between">

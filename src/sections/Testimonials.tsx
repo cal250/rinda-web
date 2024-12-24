@@ -15,60 +15,61 @@ import {motion} from 'framer-motion'
 
 const testimonials = [
   {
-    text: "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+    text: "SecureDevice Registry is a game-changer! It made registering and protecting my devices incredibly easy. Highly recommended for anyone who values their digital assets.",
     imageSrc: avatar1.src,
-    name: "Jamie Rivera",
-    username: "@jamietechguru00",
+    name: "Alex Johnson",
+    username: "@alextechsavvy",
   },
   {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: "The GPS tracking and remote wipe features are lifesavers. I recovered my misplaced laptop within hours thanks to this app.",
     imageSrc: avatar2.src,
-    name: "Josh Smith",
-    username: "@jjsmith",
+    name: "Maria Gonzalez",
+    username: "@mariag_secure",
   },
   {
-    text: "This app has completely transformed how I manage my projects and deadlines.",
+    text: "I love how all my device details are securely stored in one place. The encryption gives me peace of mind.",
     imageSrc: avatar3.src,
-    name: "Morgan Lee",
-    username: "@morganleewhiz",
+    name: "Ethan Brown",
+    username: "@ethanb_safe",
   },
   {
-    text: "I was amazed at how quickly we were able to integrate this app into our workflow.",
+    text: "The stolen device reporting system is seamless and efficient. I felt supported during a stressful time when my phone was stolen.",
     imageSrc: avatar4.src,
-    name: "Casey Jordan",
-    username: "@caseyj",
+    name: "Sophia Davis",
+    username: "@sophiad_safety",
   },
   {
-    text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+    text: "This app is perfect for families. I registered all our devices and feel secure knowing they are protected.",
     imageSrc: avatar5.src,
-    name: "Taylor Kim",
-    username: "@taylorkimm",
+    name: "Liam Wilson",
+    username: "@liamfamilytech",
   },
   {
-    text: "The customizability and integration capabilities of this app are top-notch.",
+    text: "The cloud backup feature saved me when I lost my tablet. I restored my data within minutes. Absolutely fantastic!",
     imageSrc: avatar6.src,
-    name: "Riley Smith",
-    username: "@rileysmith1",
+    name: "Olivia Martin",
+    username: "@oliviam_restore",
   },
   {
-    text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+    text: "The security tips provided are incredibly insightful. I’ve learned so much about safeguarding my devices.",
     imageSrc: avatar7.src,
-    name: "Jordan Patels",
-    username: "@jpatelsdesign",
+    name: "Noah Thompson",
+    username: "@noahtechsecure",
   },
   {
-    text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+    text: "As a business owner, the ability to manage multiple devices securely is invaluable. Highly recommend for professionals!",
     imageSrc: avatar8.src,
-    name: "Sam Dawson",
-    username: "@dawsontechtips",
+    name: "Emma Walker",
+    username: "@emmaprotects",
   },
   {
-    text: "Its user-friendly interface and robust features support our diverse needs.",
+    text: "I appreciate the community support feature. It’s great to learn from others and share security best practices.",
     imageSrc: avatar9.src,
-    name: "Casey Harper",
-    username: "@casey09",
+    name: "Mason Roberts",
+    username: "@masonsecuretech",
   },
 ];
+
 
 
 
