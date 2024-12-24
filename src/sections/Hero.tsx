@@ -43,11 +43,11 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
+          <div className="mt-20  md:mt-0 md:h-[648px] md:flex-1 relative">
             <motion.img
               src={cog.src}
               alt="cog image"
-              className="md:absolute md:h-full md:w-auto md:max-w-none md:left-6"
+              className=" ml-14 md:absolute md:h-full md:w-auto md:max-w-none md:left-6"
               animate={{ translateY: [-30, 30] }}
               transition={{ repeat: Infinity, repeatType: "mirror", duration: 3, ease: 'easeInOut' }}
             />
